@@ -3,3 +3,8 @@
 .RData
 .Ruserdata
 rmarkdown_multiformat.Rproj
+multiformat.docx
+multiformat.html
+multiformat.md
+multiformat.pdf
+multiformat_files

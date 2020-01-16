@@ -6,10 +6,13 @@ output:
   html_document: default
   github_document: default
   pdf_document: default
+  word_document: default
 ---
 
 <!-- Run line below in R to render multiple documents: -->
-<!-- rmarkdown::render("multiformat.Rmd", output_format='all') -->
+<!-- rmarkdown::render("multiformat.Rmd", output_format=c("pdf_document","word_document")) -->
+
+<!-- rmarkdown::render("multiformat.Rmd", output_format=c("html_document", "github_document")) -->
 
 <!-- NB: Knit just does first one (HTML), which overwrites the md file, and  -->
 <!--     deletes the directory of plots etc -->
